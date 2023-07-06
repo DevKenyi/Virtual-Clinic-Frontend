@@ -181,18 +181,7 @@ const Registration = () => {
                 label="Confirm Password"
                 className="w-full"
               />
-              // <Form.Field>
-              //   <DateInput
-              //     name=""
-              //     placeholder="Date of Birth"
-              //     fluid
-              //     value={dob}
-              //     iconPosition="left"
-              //     onChange={(e, { value }) => setDob(value)}
-              //     required
-              //     className="w-full"
-              //   />
-              // </Form.Field>
+          
               <Form.Field>
                 <Dropdown
                   placeholder="Select Gender"
