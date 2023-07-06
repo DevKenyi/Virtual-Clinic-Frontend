@@ -13,7 +13,7 @@ class ApiService {
 
   static appointmentList() {
     const encodedUrl = encodeURI(baseUrl + "/appointments");
-    return axios.get(encodedUrl);
+    return axios.get(encodedUrl)
   }
 }
 
