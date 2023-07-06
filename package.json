@@ -15,6 +15,10 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.0",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
+=======
+   
+>>>>>>> 0619aed0eea2d859dfab9aa604293d317852d61f
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
     "web-vitals": "^2.1.4"

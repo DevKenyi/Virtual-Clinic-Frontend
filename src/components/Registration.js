@@ -181,6 +181,7 @@ const Registration = () => {
                 label="Confirm Password"
                 className="w-full"
               />
+<<<<<<< HEAD
               {/* <Form.Field>
                 <DateInput
                   name=""
@@ -193,6 +194,9 @@ const Registration = () => {
                   className="w-full"
                 />
               </Form.Field> */}
+=======
+          
+>>>>>>> 0619aed0eea2d859dfab9aa604293d317852d61f
               <Form.Field>
                 <Dropdown
                   placeholder="Select Gender"
