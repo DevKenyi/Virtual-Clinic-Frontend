@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import { Form, Dropdown, Dimmer, Loader } from "semantic-ui-react";
-// import { DateInput } from "semantic-ui-calendar-react";
+
 import ApiService from "./service/ApiService";
 import { HttpStatusCode } from "axios";
 import { Link, useNavigate } from "react-router-dom";
@@ -181,22 +181,6 @@ const Registration = () => {
                 label="Confirm Password"
                 className="w-full"
               />
-<<<<<<< HEAD
-              {/* <Form.Field>
-                <DateInput
-                  name=""
-                  placeholder="Date of Birth"
-                  fluid
-                  value={dob}
-                  iconPosition="left"
-                  onChange={(e, { value }) => setDob(value)}
-                  required
-                  className="w-full"
-                />
-              </Form.Field> */}
-=======
-          
->>>>>>> 0619aed0eea2d859dfab9aa604293d317852d61f
               <Form.Field>
                 <Dropdown
                   placeholder="Select Gender"
