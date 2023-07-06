@@ -2,6 +2,10 @@
   "name": "eclinicbackup",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "9.8.0",
+    "node": "18.12.1"
+  },
   "dependencies": {
     "@material-tailwind/react": "^2.0.4",
     "@testing-library/jest-dom": "^5.16.5",
