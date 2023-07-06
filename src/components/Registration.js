@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import { Form, Dropdown, Dimmer, Loader } from "semantic-ui-react";
-import { DateInput } from "semantic-ui-calendar-react";
+// import { DateInput } from "semantic-ui-calendar-react";
 import ApiService from "./service/ApiService";
 import { HttpStatusCode } from "axios";
 import { Link, useNavigate } from "react-router-dom";
@@ -181,7 +181,7 @@ const Registration = () => {
                 label="Confirm Password"
                 className="w-full"
               />
-              <Form.Field>
+              {/* <Form.Field>
                 <DateInput
                   name=""
                   placeholder="Date of Birth"
@@ -192,7 +192,7 @@ const Registration = () => {
                   required
                   className="w-full"
                 />
-              </Form.Field>
+              </Form.Field> */}
               <Form.Field>
                 <Dropdown
                   placeholder="Select Gender"
